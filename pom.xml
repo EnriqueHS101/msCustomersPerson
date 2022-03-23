@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.ehsproy</groupId>
-	<artifactId>ClientPerson</artifactId>
+	<artifactId>msCustomersPerson</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>ClientPerson</name>
+	<name>msCustomersPerson</name>
 	<description>Microservice of Client person</description>
 	<properties>
 		<java.version>11</java.version>

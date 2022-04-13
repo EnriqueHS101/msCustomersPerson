@@ -23,8 +23,7 @@ public class TypeDocumentServiceImpl implements ITypeDocumentService {
 
 	@Override
 	public Mono<TypeDocument> findById(String id) {
-		// TODO Auto-generated method stub
-		return null;
+		return typeDocRepo.findById(id);
 	}
 
 	@Override

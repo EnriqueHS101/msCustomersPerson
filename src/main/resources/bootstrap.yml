@@ -6,3 +6,16 @@ spring:
       uri: http://localhost:8081
       username: ehs
       password: ehs123
+
+#server:
+#  port: 8086
+#spring:
+# application:
+#   name: customers-person
+# data:
+#   mongodb:
+#     uri: mongodb+srv://ehs:ehs123@cluster0.pluxt.mongodb.net/db_CustomersPerson?retryWrites=true&w=majority
+#eureka:
+#  client:
+#    service-url:
+#      defaultZone: http://localhost:8082/eureka/

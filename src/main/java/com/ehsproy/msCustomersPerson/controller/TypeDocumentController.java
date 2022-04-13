@@ -25,7 +25,7 @@ public class TypeDocumentController {
 	public Flux<TypeDocument> findAll(){
 		return typeDocService.findAll();
 	}
-
+//
 	@PostMapping
 	public Mono<TypeDocument> save(@RequestBody TypeDocument typeDoc) {
 		return typeDocService.save(typeDoc);
